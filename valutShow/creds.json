@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "western-card-354214",
+  "private_key_id": "819878470535fbc0f4b2e6996a3b8ff3d3d3becc",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDFeVADgF5pVRWY\ng76KEt83a6fAnaGVqmjqMP4qVhFDGTY5yFvX+zNB2J8zsDm0sT3ZfDiyuOqWou79\n+5qFluZvPNbuHmiS0IiJ0ZegfdflZJXI5u4OIPZKY35BYy0+oNXL8r4bDw5opZTV\nmyKtYyhOsmXAgu5KRYk5Yret4BP8QA9zdURdqpSFb+LhQS9F/E4LBg/0je6aUU4W\nWhmwJ2MBbjv0NU3mncg8l+sHVQsYuiRbU7mBJaGSj9XtH4mWYVw1ExHoMA/dZoqR\nrS/vqzg9omQM0P3D/bZ/CjxPH9+up3Iqf8AgJYNrP5vSFB7NmGHiQZWEis31+mPc\ns6SVt7h9AgMBAAECggEACKsKTtkJ6+Q6+jKgQMXSzAc6+hrBPsVX7R3A7mFQSSp4\nZaFsnKavaY7FcDqmUc7s6NjJ0ViKHZoh1P7AGeiVjWD1i0bE7trd/3S2i+oyOaTI\naWTvoqmiPgIvhtXAZO0g7V6mpx/qUUAhcB3q8AL4ADpW+pQUuyhhvWXeq7B4GByw\n90txhptvyTPv3D8wBGzqszsM1jSzroe8vh6mpTApJg8IJVvGBg3sn21WAo1MEJh+\nhUXg9SqzjdmnCQt6VDoQWRzg5bssTn6EAz6BJUVoQ93YTY/7xa/NQDjDn9Tsf0dr\nGsZAe8Oc4kgaLytuba1yQVtfcilRjv5XAcczkNAagQKBgQDxLZCCz8NRuHb1eLWW\nmxPL5cvzKm/HMpeCh3WgzyGGZdRk/21DbRwR9DnQKGDlvTxcrk4rD67Vd4d1NZ6q\njf0tXP2/8mae3JQi8us5nTuYQJYV/7U+tZRTvgaaO6ooTnghYIVdgFvffapREQy/\nShpUe/2x2gUOT34PuK2puz+l/QKBgQDRnCeO+0v77jZYvEH6i7ktWQTNRuv/ByKT\n+Y49fjH+IyNJpqI7H2MsRgNXanYr0ZMr67k/81ofgZjF7LISQAqby7dB7qlVzVXL\n/8yKG9Yde8gDQ5EMh1G+Dg4rd4vYas3npzfgTEM7JwybgoaYynNEs5uVZZ8GNpzm\nEpt+7zukgQKBgQCXdmwZGu2pNtXOl35DFSU7mheZoP8N9KHeIcAnu61sQCtBOoCe\nJbnJNL3SEmm4Hj34XqdMt86u1SBG5eO9bOqhQJNDprH39sM5p6E+T5aLqZQYQLzM\nozCB3wc6eVoFcjJTk9BtxhzsoHkD7Fc7EwiyIiRTO36NXDLpIKw/ug7g6QKBgGRx\nrO8yctX17+sTw5Y5UHJvnwJzgvGBzMsWIlhLWc+LrQRFKqakQtTbdAx2wsv6sMiy\nO+JuTfidFMV7yFVAhRTlSRr6MAEi1YNdP/nKnw8f2tfdj+tuCPjHKXkg303E2Iiy\ns+7y/KCi9MKsiK09DoGUg/DScqL6lrMVpZftMiqBAoGBAIqrmwfk2aGNb+RBWaBx\nwRCcQMjZ7TyhAW0O2vUDjEojYw1mSmzofAXV5jAdyQgK0xeO5e5q6QzKQkzSmc+s\nWTpMz9/WEEbbNpo6znG839z9ZbGQrGshkpWsmHMM/+M3anYR+44nesX0qXrB0Tao\nsvPs5YoyWkD/oDd4gqxsP3pZ\n-----END PRIVATE KEY-----\n",
+  "client_email": "pudge-727@western-card-354214.iam.gserviceaccount.com",
+  "client_id": "105532014839405831618",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pudge-727%40western-card-354214.iam.gserviceaccount.com"
+}
