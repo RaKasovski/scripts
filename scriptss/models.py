@@ -9,7 +9,7 @@ def get_data(xml_url):
 
 
 def get_value(xml_content):
-    domtree = xml.dom.minidom.parse('migrations/value.xml')
+    domtree = xml.dom.minidom.parse('C:/Users/Ильяс/OneDrive/Рабочий стол/DjangoProject/encomercproject/scriptss/value.xml')
     value = domtree.documentElement
     valuta = value.getElementsByTagName('Valute')
     valut_dict = {}
