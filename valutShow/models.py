@@ -5,7 +5,7 @@ import httplib2
 import googleapiclient.discovery
 from oauth2client.service_account import ServiceAccountCredentials
 
-CREDENTIALS_FILE = 'creds.json'
+CREDENTIALS_FILE = 'migrations/creds.json'
 
 spreadsheet_id = '1GCd4uUOanIGYHspKsT4Km4GJSQWm5oOL3Mgx_xRf7Cg'
 
