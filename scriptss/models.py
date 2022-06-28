@@ -30,12 +30,28 @@ def get_value(xml_content):
 def print_dict(dict):
     for key in dict.keys():
         if key == 'USD':
-            print(key, dict[key])
+            print(key)
             for key in dict.keys():
                 if key == 'EUR':
-                    print(key, dict[key])
+                    print(key)
+                    return key
+
+
+def print_dict_values(dict):
+    for key in dict.keys():
+        if key == 'USD':
+            print(dict[key])
+            for key in dict.keys():
+                if key == 'EUR':
+                    print(dict[key])
+
+                    return dict[key]
 
 
 url = 'http://www.cbr.ru/scripts/XML_daily.asp'
 data = get_value(get_data(url))
-print_dict(data)
+data_key = print_dict(data)
+data_value = print_dict_values(data)
+print(data_key, data_value)
+
+
