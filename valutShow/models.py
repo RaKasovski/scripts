@@ -5,8 +5,8 @@ import httplib2
 import googleapiclient.discovery
 from oauth2client.service_account import ServiceAccountCredentials
 from scriptss.models import data_key_usd, data_value_usd, data_key_eur, data_value_eur
-
-
+import django.db.backends.postgresql
+import datetime
 CREDENTIALS_FILE = 'C:/Users/Ильяс/OneDrive/Рабочий стол/DjangoProject/encomercproject/valutShow/creds.json'
 
 spreadsheet_id = '1GCd4uUOanIGYHspKsT4Km4GJSQWm5oOL3Mgx_xRf7Cg'
@@ -29,3 +29,9 @@ values = service.spreadsheets().values().batchUpdate(
         ]
     }
 ).execute()
+values = service.spreadsheets().values().get(
+    spreadsheetId=spreadsheet_id,
+    range='A1:E10',
+    majorDimension='COLUMNS'
+).execute()
+pprint(values)
