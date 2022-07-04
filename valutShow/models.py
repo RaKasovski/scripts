@@ -4,7 +4,8 @@ from pprint import pprint
 import httplib2
 import googleapiclient.discovery
 from oauth2client.service_account import ServiceAccountCredentials
-import scriptss
+from scriptss import models
+
 
 CREDENTIALS_FILE = 'C:/Users/Ильяс/OneDrive/Рабочий стол/DjangoProject/encomercproject/valutShow/creds.json'
 
