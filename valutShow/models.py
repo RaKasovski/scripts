@@ -4,7 +4,7 @@ from pprint import pprint
 import httplib2
 import googleapiclient.discovery
 from oauth2client.service_account import ServiceAccountCredentials
-from scriptss import models
+from scriptss.models import data_key_usd, data_value_usd, data_key_eur, data_value_eur
 
 
 CREDENTIALS_FILE = 'C:/Users/Ильяс/OneDrive/Рабочий стол/DjangoProject/encomercproject/valutShow/creds.json'
@@ -23,12 +23,9 @@ values = service.spreadsheets().values().batchUpdate(
     body={
         "valueInputOption": "USER_ENTERED",
         "data": [
-            {"range": "A3:B3",
-             "majorDimension": "ROWS",
-             "values": [["This is B3", "This is C3"], ["This is B4", "This is C4"]]},
-            {"range": "D5:E6",
+            {"range": "A2:B3",
              "majorDimension": "COLUMNS",
-             "values": [["This is D5", "This is D6"], ["This is E5", "=5+5"]]}
+             "values": [[data_key_usd, data_key_eur], [data_value_usd, data_value_eur]]},
         ]
     }
 ).execute()
