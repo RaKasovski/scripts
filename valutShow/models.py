@@ -4,6 +4,7 @@ from pprint import pprint
 import httplib2
 import googleapiclient.discovery
 from oauth2client.service_account import ServiceAccountCredentials
+import scriptss
 
 CREDENTIALS_FILE = 'C:/Users/Ильяс/OneDrive/Рабочий стол/DjangoProject/encomercproject/valutShow/creds.json'
 
@@ -21,7 +22,7 @@ values = service.spreadsheets().values().batchUpdate(
     body={
         "valueInputOption": "USER_ENTERED",
         "data": [
-            {"range": "B3:C4",
+            {"range": "A3:B3",
              "majorDimension": "ROWS",
              "values": [["This is B3", "This is C3"], ["This is B4", "This is C4"]]},
             {"range": "D5:E6",

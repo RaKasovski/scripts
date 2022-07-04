@@ -27,31 +27,37 @@ def get_value(xml_content):
     return valut_dict
 
 
-def print_dict(dict):
+def print_dict_for_usd(dict):
     for key in dict.keys():
         if key == 'USD':
             print(key)
-            for key in dict.keys():
-                if key == 'EUR':
-                    print(key)
-                    return key
+            return key
 
 
-def print_dict_values(dict):
+def print_dict_for_eur(dict):
+    for key in dict.keys():
+        if key == 'EUR':
+            print(key)
+            return key
+
+
+def print_dict_values_for_usd(dict):
     for key in dict.keys():
         if key == 'USD':
             print(dict[key])
-            for key in dict.keys():
-                if key == 'EUR':
-                    print(dict[key])
+            return dict[key]
 
-                    return dict[key]
+
+def print_dict_values_for_eur(dict):
+    for key in dict.keys():
+        if key == 'EUR':
+            print(dict[key])
+            return dict[key]
 
 
 url = 'http://www.cbr.ru/scripts/XML_daily.asp'
 data = get_value(get_data(url))
-data_key = print_dict(data)
-data_value = print_dict_values(data)
-print(data_key, data_value)
-
-
+data_key_usd = print_dict_for_usd(data)
+data_key_eur = print_dict_for_eur(data)
+data_value_usd = print_dict_values_for_usd(data)
+data_value_eur = print_dict_values_for_eur(data)
